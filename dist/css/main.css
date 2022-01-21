@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&family=Spline+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #fff;
+  font-family: "Readex Pro", sans-serif;
+  color: #372865; }
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #acadaf; }
+
+#main {
+  background: #f6f9fe;
+  border-radius: 10px; }
+  #main .container {
+    padding: 4rem 8rem; }
+    #main .container #top {
+      display: flex;
+      justify-content: space-between; }
+      #main .container #top #nav {
+        margin-top: 0.8rem; }
+        #main .container #top #nav ul {
+          display: flex;
+          gap: 1rem;
+          margin-bottom: 0.8rem; }
+      #main .container #top .hamburger {
+        display: none; }
+      #main .container #top .button {
+        background: #372865;
+        padding: 1.5rem;
+        position: relative;
+        bottom: 1.2rem;
+        border-radius: 0.3em;
+        font-size: 18px; }
+        #main .container #top .button a {
+          color: #fff; }
+        #main .container #top .button:hover {
+          opacity: 0.8;
+          cursor: pointer; }
+    #main .container #section-1 {
+      display: flex; }
+      #main .container #section-1 .left .info {
+        background: #372865;
+        padding: 0.5rem;
+        border-radius: 18px;
+        width: 60%;
+        margin-bottom: 2rem; }
+        #main .container #section-1 .left .info p {
+          color: #d4d9d8;
+          font-size: 1.1rem;
+          margin-left: 20px; }
+          #main .container #section-1 .left .info p span {
+            text-decoration: underline; }
+      #main .container #section-1 .left .title h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1rem; }
+      #main .container #section-1 .left .text-1 {
+        width: 80%;
+        color: #868c98;
+        margin-bottom: 1rem; }
+      #main .container #section-1 .left .email input {
+        padding: 1rem;
+        width: 40%;
+        border: #808080 2px solid;
+        margin-right: 0.6rem;
+        border-radius: 2px; }
+      #main .container #section-1 .left .email button {
+        background: #372865;
+        padding: 1rem;
+        border-radius: 0.3em;
+        font-size: 18px;
+        color: #fff;
+        border: none; }
+        #main .container #section-1 .left .email button:hover {
+          opacity: 0.8;
+          cursor: pointer; }
+      #main .container #section-1 .right {
+        width: 60%;
+        height: 50%; }
+        #main .container #section-1 .right img {
+          height: 50%;
+          width: 100%; }
+    #main .container #footer {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem; }
+      #main .container #footer .icons {
+        display: flex;
+        gap: 1.5rem; }
+
+@media screen and (max-width: 700px) {
+  #main .container {
+    padding: 2rem 4rem; }
+    #main .container #top {
+      margin-bottom: 4rem; }
+      #main .container #top #nav {
+        display: none; }
+      #main .container #top .hamburger {
+        display: block;
+        margin-top: 0.7rem; }
+    #main .container #section-1 .right {
+      display: none; }
+    #main .container #section-1 .left {
+      text-align: center; }
+      #main .container #section-1 .left .info {
+        width: 90%;
+        margin-left: 2rem; }
+      #main .container #section-1 .left .title h1 {
+        font-size: 3.3rem; }
+      #main .container #section-1 .left .text-1 {
+        width: 100%;
+        margin-bottom: 1rem; }
+      #main .container #section-1 .left .email input {
+        width: 60%;
+        margin-bottom: 2rem; } }
+
+@media screen and (max-width: 495px) {
+  #main .container {
+    padding: 2rem 0.5rem; }
+    #main .container #top {
+      margin-bottom: 4rem; }
+      #main .container #top #nav {
+        display: none; }
+      #main .container #top .hamburger {
+        display: block;
+        margin-top: 0.4rem; }
+    #main .container #section-1 .right {
+      display: none; }
+    #main .container #section-1 .left {
+      text-align: center; }
+      #main .container #section-1 .left .info {
+        width: auto; }
+      #main .container #section-1 .left .title h1 {
+        font-size: 2rem; }
+      #main .container #section-1 .left .text-1 {
+        width: auto; }
+      #main .container #section-1 .left .email {
+        display: flex;
+        flex-direction: column; }
+        #main .container #section-1 .left .email input {
+          width: auto;
+          margin-bottom: 1rem;
+          margin-left: 1rem; }
+        #main .container #section-1 .left .email button {
+          width: 95%;
+          margin-left: 1rem;
+          margin-bottom: 4rem; } }
